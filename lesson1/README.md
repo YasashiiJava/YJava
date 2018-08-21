@@ -10,7 +10,6 @@ Sample1.javaをコンパイルするならば次のようになる．
 ```
 C:\Users\cl525> cd .\Desktop\YJava\lesson1\                   # Sample1.javaがあるディレクトリへ移動する
 C:\Users\cl525\Desktop\YJava\lesson1> javac Sample1.java      # このコマンドによりコンパイルを実行する
-
 ```
 
 コンパイルが成功すると，「〇〇.class」といったファイルが新たに生成される．
