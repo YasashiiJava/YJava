@@ -1,5 +1,12 @@
 # やさしいJava
 
+各lessonの要点は，そのlessonのディレクトリ内のREADMEに記載しておく．
+以下は各lessonの概要．
+気になるところがあれば，そのlessonのディレクトリに移動してREADMEを読むとよい．
+- lesson1：
+    javaを動かしてみる．Sample1.javaをコンパイルした後実行し，「Hello World!」と出力させた．
+- lesson2：
+    
 
 # 備忘録
 
