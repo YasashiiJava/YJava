@@ -13,6 +13,7 @@ C:\Users\cl525\Desktop\YJava\lesson1> javac Sample1.java      # このコマン�
 ```
 
 コンパイルが成功すると，「〇〇.class」といったファイルが新たに生成される．
+このファイルを**クラスファイル**と呼ぶ．
 上の例の場合，「Sample1.class」が生成される．
 
 
