@@ -23,15 +23,15 @@ Javaにおける変数の宣言（プログラム上での変数の定義）の�
 
 ### 3.5
 変数の宣言，他の値の代入，変数を別の変数へ代入を実際のコードで理解する．
-- Sample1.javaの実装・実行
-- Sample2.javaの実装・実行
-- Sample3.javaの実装・実行
+- P53 Sample1.javaの実装・実行
+- P56 Sample2.javaの実装・実行
+- P58 Sample3.javaの実装・実行
 
 ### 3.6
 キーボードからの入力（標準入力）を受け付けるプログラムを理解する．
-- Sample4.javaの実装・実行
-- Sample5.javaの実装・実行
-- Sample6.javaの実装・実行
+- P62 Sample4.javaの実装・実行
+- P64 Sample5.javaの実装・実行
+- P66 Sample6.javaの実装・実行
 
 ### 3.7
 - 練習1：
