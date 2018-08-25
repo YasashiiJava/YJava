@@ -17,7 +17,7 @@
 
 ②git push でエラーが出たため　git pull origin masterをおこなってから
 git add *
-git commit -m 	"up date"
+git commit -m "up date"
 git push 
 で解決したが自分が何をしたのかわからない
 
