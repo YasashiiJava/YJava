@@ -1,0 +1,8 @@
+①この文字(0xEF)は、エンコーディングwindows-31jにマップできません　と出たので
+「-encoding UTF-8」を付けてコンパイル　で解決したがこれは何なのか
+
+②git push でエラーが出たため　git pull origin masterをおこなってから
+git add *
+git commit -m 	"up date"
+git push 
+で解決したが自分が何をしたのかわからない
