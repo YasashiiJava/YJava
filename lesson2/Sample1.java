@@ -7,3 +7,4 @@ class sample1
 		System.out.println("wanna be a take me make me  higher");
 	}
 }
+
