@@ -3,8 +3,8 @@ class sample3
 {
 	 public static void main(String[] args)
 	 {
-	 	System.out.println("COOL");
+	 	System.out.println('M');
 	 	System.out.println("おいでやすjava");
-	 	System.out.println("0713");
+	 	System.out.println(0713);
 	 }
 }
