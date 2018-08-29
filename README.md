@@ -3,9 +3,11 @@
 各lessonの要点は，そのlessonのディレクトリ内のREADMEに記載しておく．
 以下は各lessonの概要．
 気になるところがあれば，そのlessonのディレクトリに移動してREADMEを読むとよい．
-- lesson1：
-    javaを動かしてみる．Sample1.javaをコンパイルした後実行し，「Hello World!」と出力させた．
-- lesson2：
+- Lesson 1：
+    Javaを動かしてみる．Sample1.javaをコンパイルした後実行し，「Hello World!」と出力させた．
+- Lesson 2：
+    文字列を出力するプログラムについて学んだ．また，2進数やエスケープシーケンスを学んだ．
+- Lesson 3：
     
 
 ## 作業を始める前に
