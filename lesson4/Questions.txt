@@ -1,3 +1,7 @@
 Sample5について
-
 インクリメントが前後どっちにつこうが、１になると思う。
+
+Sample6が実行できない。→
+file→with encording→UTF８でやる
+
+
