@@ -10,9 +10,9 @@ class Sample6
 		BufferedReader br =
 			new BufferedReader(new InputStreamReader(System.in));
 
-		String str1= br.readLine();
-		String str2= br.readLine();
-		String str3= br.readLine();
+		String str1 = br.readLine();
+		String str2 = br.readLine();
+		String str3 = br.readLine();
 
 		int sum = 0;
 		sum += Integer.parseInt(str1);
