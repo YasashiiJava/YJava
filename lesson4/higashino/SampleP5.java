@@ -28,7 +28,7 @@ class SampleP5 {
         System.out.print("Total score of 5 subjects:" + sum);
         
         // Compute and print ave
-        ave = sum / 5.0;
+        double ave = sum / 5.0;
         System.out.print("Average score of 5 subjects:" + ave);
     }
 }
