@@ -2,6 +2,6 @@ Sample5について
 インクリメントが前後どっちにつこうが、１になると思う。
 
 Sample6が実行できない。→
-「file」→「Save with encording」→「UTF８」を実行し，ファイルのエンコードをUTF-8に指定する．
+「file」→「Save with encoding」→「UTF８」を実行し，ファイルのエンコードをUTF-8に指定する．
 
 
