@@ -1,6 +1,7 @@
 # Compiled class file
 *.class
 lesson[0-9]+/*.class
+lesson[0-9]+/higashino/*.class
 
 # Log file
 *.log
