@@ -10,10 +10,15 @@ class SampleP5 {
 		int target = Integer.parseInt(br.readLine());
 
 		boolean isPrime = true;
-		for (int i = 2; i < target / 2; i++) {
+		for (int i = 2; i <= target / 2; i++) {
 			if (target % i == 0) {
 				isPrime = false;
 			}
 		}
+
+		if (isPrime)
+			System.out.println(target + "は素数です．");
+		else
+			System.out.println(target + "は素数ではありません．");
 	}
 }

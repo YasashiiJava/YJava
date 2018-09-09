@@ -7,10 +7,11 @@ class SampleP2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int sum = 0;
+        int score = 1;
 
         do {
             String str = br.readLine();
-            int score = Integer.parseInt(str);
+            score = Integer.parseInt(str);
             sum += score;
         } while (score != 0);
 
