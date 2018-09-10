@@ -17,9 +17,6 @@ class Sample6
 
 		System.out.println("最初に" + num1 + "が入力されました");
 		System.out.println("次に" + num2 + "が入力されました");
-
-	}	
-
-
+	}
 }
 

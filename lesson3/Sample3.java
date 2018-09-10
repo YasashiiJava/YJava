@@ -6,13 +6,13 @@ class Sample3
 
 		num1 = 3;
 
-		System.out.println("変数num1の値は "  + num1 + "です。");
+		System.out.println("変数num1の値は" + num1 + "です。");
 
 		num2 = num1;
 
 		System.out.println("変数num1の値をnum2に代入します。");
 
-		System.out.println("変数num2の値は "  + num2 + "になりました。");
+		System.out.println("変数num2の値は" + num2 + "になりました。");
 	}
 }
 

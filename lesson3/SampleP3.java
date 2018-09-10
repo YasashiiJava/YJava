@@ -14,10 +14,6 @@ class SampleP3
 		int num = Integer.parseInt(str);
 
 		System.out.println(num + "年の月日がたった");
-
-
-}
-
-
+	}
 }
 

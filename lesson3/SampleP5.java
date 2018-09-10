@@ -12,15 +12,10 @@ class SampleP5
 		String str1 = br.readLine();
 		String str2 = br.readLine();
 
-		int num1 = Integer.parseInt(str1);
-		int num2 = Integer.parseInt(str2);
+		double num1 = Double.parseDouble(str1);
+		double num2 = Double.parseDouble(str2);
 
 		System.out.println("身長は" + num1 + "です");
 		System.out.println("体重は" + num2 + "です");
-
 	}	
-
-
 }
-
-

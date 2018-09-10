@@ -15,18 +15,20 @@ class SampleP5
 		String str4 = br.readLine();
 		String str5 = br.readLine();
 
-		double num1 = Double.parseDouble(str1);
-		double num2 = Double.parseDouble(str2);
-		double num3 = Double.parseDouble(str3);
-		double num4 = Double.parseDouble(str4);
-		double num5 = Double.parseDouble(str5);
+		int num1 = Integer.parseInt(str1);
+		int num2 = Integer.parseInt(str2);
+		int num3 = Integer.parseInt(str3);
+		int num4 = Integer.parseInt(str4);
+		int num5 = Integer.parseInt(str5);
 
-		System.out.println("合計点は" + (num1+num2+num3+num4+num5) + "となりました");
-		System.out.println("平均点は" + (num1+num2+num3+num4+num5)/5 + "となりました");
+		int sum = 0;
+		sum += num1;
+		sum += num2;
+		sum += num3;
+		sum += num4;
+		sum += num5;
 
-	}	
-
-
+		System.out.println("合計点は" + sum + "となりました");
+		System.out.println("平均点は" + sum/5.0 + "となりました");
+	}
 }
-
-

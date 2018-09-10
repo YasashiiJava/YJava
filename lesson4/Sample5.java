@@ -7,6 +7,7 @@ class Sample5
 
 		b = ++a;
 
-		System.out.println("代入前にインクリメントしたのでbの値は" + b + b"です");
+		System.out.println("代入前にインクリメントしたのでbの値は" + b + "です");
+		System.out.println("aの値は" + a + "です");
 	}
 }

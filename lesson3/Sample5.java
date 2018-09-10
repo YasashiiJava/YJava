@@ -14,9 +14,5 @@ class Sample5
 		int num = Integer.parseInt(str);
 
 		System.out.println(num + "が入力されました");
-
-
-}
-
-
+	}
 }

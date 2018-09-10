@@ -7,7 +7,7 @@ class Sample9
 		System.out.println("身長は" + dnum + "センチです");
 
 		System.out.println("int型の変数に代入します");
-		int inum = (int)dnum;
+		int inum = (int) dnum;
 
 		System.out.println("身長は" + inum + "センチです");
 	}
