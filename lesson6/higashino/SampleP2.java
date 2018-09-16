@@ -12,7 +12,7 @@ class SampleP2 {
         do {
             score = Integer.parseInt(br.readLine());
             sum += score;
-        } while (score != 0);
+        } while (score > 0);
 
         System.out.println("テストの合計点は" + sum + "点です．");
     }
