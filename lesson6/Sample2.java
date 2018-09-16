@@ -9,4 +9,3 @@ class Sample2
 		System.out.println("繰り返しは終了しました");
 	}
 }
-
