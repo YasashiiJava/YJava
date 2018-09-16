@@ -13,6 +13,7 @@ class SampleP5 {
 		for (int i = 2; i <= target / 2; i++) {
 			if (target % i == 0) {
 				isPrime = false;
+				break;
 			}
 		}
 
