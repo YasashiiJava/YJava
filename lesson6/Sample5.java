@@ -8,7 +8,6 @@ class Sample5
 			System.out.println(i + "番目の繰り返しです");
 			i++;
 		}
-
 		System.out.println("繰り返しは終了しました");
 	}
 }
