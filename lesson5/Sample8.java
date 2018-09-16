@@ -13,6 +13,5 @@ class Sample8
 		char ans = (res == 1 ) ? 'A' : 'B';
 
 		System.out.println(ans + "コースを選択しました");
-		}
-
+	}
 }

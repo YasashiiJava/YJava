@@ -12,20 +12,20 @@ class SampleP5
 
 		switch(res){
 			case 1:
-			System.out.println("明日があるよ");
-			break;
+				System.out.println("明日があるよ");
+				break;
 		    case 2:
-			System.out.println("やる気スイッチ押そうか");
-			break;
+				System.out.println("やる気スイッチ押そうか");
+				break;
 			case 3:
-			System.out.println("本気出せよ");
-			break;
+				System.out.println("本気出せよ");
+				break;
 			case 4:
-			System.out.println("流石だぜ");
-			break;
+				System.out.println("流石だぜ");
+				break;
 			case 5:
-			System.out.println("お前はやれる奴だと思っていたよ");
-			break;
+				System.out.println("お前はやれる奴だと思っていたよ");
+				break;
 		}
 	}
 }

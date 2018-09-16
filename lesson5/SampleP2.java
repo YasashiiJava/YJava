@@ -10,10 +10,11 @@ class SampleP2
 		String str = br.readLine();
 		int res = Integer.parseInt(str);
 
-		if((res % 2 ) == 1){
+		if(res % 2 == 1){
 			System.out.println("奇数が入力されました");
 		}
-		else
+		else{
 			System.out.println("偶数が入力されました");
 		}
 	}
+}

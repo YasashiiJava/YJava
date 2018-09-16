@@ -2,7 +2,7 @@ import java.io.*;
 
 class Sample6
 {
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws IOException {
 		System.out.println("aかbを入力してください");
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -10,16 +10,16 @@ class Sample6
 		String str = br.readLine();
 		char res = str.charAt(0);
 
-		switch(res){
+		switch (res) {
 			case 'a':
-			System.out.println("aが入力されました");
-			break;
+				System.out.println("aが入力されました");
+				break;
 		    case 'b':
-			System.out.println("bが入力されました");
-			break;
+				System.out.println("bが入力されました");
+				break;
 			default:
-			System.out.println("aかbを入力してください");
-			break;
+				System.out.println("aかbを入力してください");
+				break;
 		}
 	}
 }

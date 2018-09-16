@@ -12,14 +12,14 @@ class Sample5
 
 		switch(res){
 			case 1:
-			System.out.println("1が入力されました");
-			break;
+				System.out.println("1が入力されました");
+				break;
 		    case 2:
-			System.out.println("2が入力されました");
-			break;
+				System.out.println("2が入力されました");
+				break;
 			default:
-			System.out.println("1か2を入力してください");
-			break;
+				System.out.println("1か2を入力してください");
+				break;
 		}
 	}
 }

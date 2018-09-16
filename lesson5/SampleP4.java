@@ -10,10 +10,11 @@ class SampleP4
 		String str = br.readLine();
 		int res = Integer.parseInt(str);
 
-		if(res > 0 && res < 11){
+		if(0 < res && res < 11){
 			System.out.println( res + "が入力されました");
 		}
-		else
+		else{
 			System.out.println("1から10で入力な");
 		}
 	}
+}
