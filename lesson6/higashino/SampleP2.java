@@ -10,8 +10,7 @@ class SampleP2 {
         int score = 1;
 
         do {
-            String str = br.readLine();
-            score = Integer.parseInt(str);
+            score = Integer.parseInt(br.readLine());
             sum += score;
         } while (score != 0);
 
