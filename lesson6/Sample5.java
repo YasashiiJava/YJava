@@ -4,7 +4,7 @@ class Sample5
 	{
 		int i = 1;
 
-		while(i<= 5){
+		while(i <= 5){
 			System.out.println(i + "番目の繰り返しです");
 			i++;
 		}

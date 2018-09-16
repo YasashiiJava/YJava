@@ -13,18 +13,18 @@ class Sample10
 		switch(res){
 			case 1:
 		    case 2:
-			System.out.println("ファイト");
-			break;
+				System.out.println("ファイト");
+				break;
 			case 3:
 		    case 4:
-			System.out.println("やるやん");
-			break;
-			 case 5:
-			System.out.println("天才か");
-			break;
+				System.out.println("やるやん");
+				break;
+			case 5:
+				System.out.println("天才か");
+				break;
 			default:
-			System.out.println("１～５までで入力してください");
-			break;
+				System.out.println("１～５までで入力してください");
+				break;
 		}
 	}
 }

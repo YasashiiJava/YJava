@@ -11,10 +11,17 @@ class SampleP5
 		String str = br.readLine();
 		int num = Integer.parseInt(str);
 
-		while(num>2){
-			num = num/2;
-			if((num % 2 ) == 1);
-			System.out.println(num + "は素数です");
+		boolean isPrime = true;
+		for(int i=2; i<num; i++){
+			if(num % i == 0){
+				isPrime = false;
+				break;
+			}
 		}
+
+		if(!isPrime)
+			System.out.println(num + "は素数じゃないです");
+		else
+			System.out.println(num + "は素数です");
 	}
 }

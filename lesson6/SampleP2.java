@@ -12,7 +12,7 @@ class SampleP2
 		int num = Integer.parseInt(str);
 
 		int sum = 0;
-		while(num >= 1){
+		while(num > 0){
 			sum += num;
 			str = br.readLine();
 			num = Integer.parseInt(str);

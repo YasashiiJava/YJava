@@ -5,16 +5,13 @@ class Sample8
 		boolean bl = false;
 		for(int i=0; i<5; i++){
 			for(int j=0; j<5; j++){
-					if(bl == false){
-					System.out.println("*");
-					bl = true;
-				}
-				else{
-					System.out.println("-");
-					bl = false;
-				}
+				if(bl)
+					System.out.print("-");
+				else
+					System.out.print("*");
+				bl = !bl;
 			}
-			System.out.println("\n");
+			System.out.println();
 		}
 	}
 }

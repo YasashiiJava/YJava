@@ -7,7 +7,7 @@ class Sample6
 		do{
 			System.out.println(i + "番目の繰り返しです");
 			i++;
-		}while(i<= 5);
+		}while(i <= 5);
 
 		System.out.println("繰り返しは終了しました");
 	}
