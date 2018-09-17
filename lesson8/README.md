@@ -1,7 +1,7 @@
 # Lesson 8
 これまで何度も書いていた呪文「class Sample〇」の意味がこの章で明らかになる．
 
-また，「public static void main(String[] args)」の「void」や「br.readLine()」の「.」の意味が明らかになる．
+また，「public static void main(String[] args)」の「void」や「br.readLine()」の「.」の意味も明らかになる．
 「public」や「static」に関しては後のLessonで明らかになる．
 
 Sampleは6までしかなく，練習問題もコードを書くのは2問しかないが，侮ることなかれ．
@@ -30,4 +30,4 @@ Sampleは6までしかなく，練習問題もコードを書くのは2問しか
 
 
 ### 8.7
-
+- SampleP5：この問題はLesson 9の練習5とリンクしている
