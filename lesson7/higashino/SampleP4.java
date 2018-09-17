@@ -2,7 +2,6 @@ import java.io.*;
 
 class SampleP4 {
 	public static void main(String[] args) throws IOException {
-		/* 下準備 */
 		System.out.println("5人のテストの点数を入力してください．");
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
