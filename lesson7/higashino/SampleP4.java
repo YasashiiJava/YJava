@@ -20,7 +20,7 @@ class SampleP4 {
 		}
 		
 		/* 最高点を求める */
-		int highscore = 0;
+		int highscore = 0; // まずは最高点を保存する変数を用意
 		for (int i = 0; i < scores.length; i++) {
 			if (highscore < scores[i])
 				highscore = scores[i];
