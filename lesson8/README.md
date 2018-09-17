@@ -1,4 +1,4 @@
-# Lesson8
+# Lesson 8
 これまで何度も書いていた呪文「class Sample〇」の意味がこの章で明らかになる．
 
 また，「public static void main(String[] args)」の「void」や「br.readLine()」の「.」の意味が明らかになる．
