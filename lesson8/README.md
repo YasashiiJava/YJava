@@ -3,6 +3,8 @@
 
 また，「public static void main(String[] args)」の「void」や「br.readLine()」の「.」の意味が明らかになる．
 
+Sampleは6までしかないが，侮ることなかれ．
+コードを書く量が少ない分きちんと本を読み，クラスについてしっかり理解しよう．
 
 ## TODO & Points
 
