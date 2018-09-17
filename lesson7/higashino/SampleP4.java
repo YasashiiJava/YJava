@@ -9,14 +9,12 @@ class SampleP4 {
 		int[] scores = new int[5];
 		
 		/* 5人の点数を順番に配列に格納していく */
-		for (int i = 0; i < scores.length; i++) { // "i < 5" でも良いが，人数が変わったときに対応しやすいようにscores.lengthを使った
+		for (int i = 0; i < scores.length; i++) // "i < 5" でも良いが，人数が変わったときに対応しやすいようにscores.lengthを使った
 			scores[i] = Integer.parseInt(br.readLine());
-		}
 		
 		/* 5人の点数を順番に出力していく */
-		for (int i = 0; i < scores.length; i++) {
+		for (int i = 0; i < scores.length; i++)
 			System.out.println(i + "番目の人の点数： " + scores[i]);
-		}
 		
 		/* 最高点を求める */
 		int highscore = 0; // まずは最高点を保存する変数を用意
