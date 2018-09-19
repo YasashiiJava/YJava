@@ -1,4 +1,4 @@
-## Lesson 5 ~ 条件分岐 ~
+# Lesson 5 ~ 条件分岐 ~
 
 ### Practice 5-1
 < if文 >
