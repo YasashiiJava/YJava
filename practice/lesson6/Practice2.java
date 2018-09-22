@@ -10,8 +10,8 @@ class Practice2
 
 		int num = Integer.parseInt(br.readLine());
 
-		for( int i = num; i < num*10; i=(i+num)){
-			System.out.print(i + "\t");
+		for( int i = 1; i < 10; i++){
+			System.out.print((i * num) + "\t");
 		}
 	}
 }
