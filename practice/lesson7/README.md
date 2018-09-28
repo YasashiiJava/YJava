@@ -20,7 +20,7 @@
 配置する点の数を増やせば増やすほど得られる近似値の精度は高くなる（その分計算に時間はかかる）．
 プログラムができたら100万個くらいで実行してみると面白いかもしれない．
 
-<img src=./pic/.png width=500px>
+<img src=./pic/montecarlo.png width=300px>
 
 #### モンテカルロ法とは？
 参考サイト：https://mathtrain.jp/montecarlo
