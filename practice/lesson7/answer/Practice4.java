@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-class Montecarlo {
+class Practice4 {
 	public static void main(String[] args) {
 		/* 必要なものを用意 */
 		int numOfPoints	= 10000;
