@@ -2,7 +2,7 @@ import java.lang.Math;
 
 class Practice4 {
 	public static void main(String[] args) {
-		/* 必要なものを用意 */
+		/* 必要な変数を用意 */
 		int numOfPoints	= 10000;
 		int[][] points = new int[numOfPoints][2];
 		
