@@ -6,15 +6,18 @@ class Practice2 {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+		System.out.print("x: ");
 		String str1 = br.readLine();
+		System.out.print("y: ");
 		String str2 = br.readLine();
-		int res1 = Integer.parseInt(str1);
-		int res2 = Integer.parseInt(str2);
+		int x = Integer.parseInt(str1);
+		int y = Integer.parseInt(str2);
 
-		if ((res1 % res2) == 0 ){
+		if ((x % y) == 0 ){
 			System.out.println("XはYの倍数です");
 		}
-		else
+		else{
 			System.out.println("XはYの倍数ではありません");
 		}
+	}
 }
