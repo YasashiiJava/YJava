@@ -9,7 +9,7 @@ class Practice3 {
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
 				// hogehoge
-				kuku[i][j] = (i + 1) * (j + 1);
+				kuku[i][j] = i * j;
 			}
 		}
 		/* 2つの数字（1 ~ 9）を入力して，掛け算した値を表示する */
@@ -19,8 +19,8 @@ class Practice3 {
 
 		String str1 = br.readLine();
 		String str2 = br.readLine();
-		i = Integer.parseint(str1);
-		j = Integer.parseint(str2);
+		int i = Integer.parseInt(str1);
+		int j = Integer.parseInt(str2);
 
 		System.out.println(i + "かける" + j + "は" + kuku[i][j] + "です");
 
