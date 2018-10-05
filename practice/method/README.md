@@ -33,9 +33,9 @@ Practice 2で実装したtotalメソッドを再帰アルゴリズムを用い�
 ```
 1: int total(int n) {
 2:		if (n == 1)
-3:			return 1
+3:			return 1;
 4:		else
-5:			return n + total(n - 1)
+5:			return n + total(n - 1);
 6: }
 ```
 
