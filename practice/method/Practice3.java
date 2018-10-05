@@ -1,5 +1,4 @@
-class Practice2 {
-	/* ここにメソッドを実装してね */
+class Practice3 {
 	int total(int n) {
 		if (n == 1)
 			return 1;
