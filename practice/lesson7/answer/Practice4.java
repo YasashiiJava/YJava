@@ -30,7 +30,7 @@ class Practice4 {
 		}
 		
 		/* カウントした結果から，円周率の近似値を求める */
-		double pi = 4 * count / numOfPoints;
+		double pi = 4 * count / (double) numOfPoints;
 		
 		/* 結果を出力する */
 		System.out.println("円周率： " + pi);
