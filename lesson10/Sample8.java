@@ -1,48 +1,52 @@
-// クラス変数、メソッドの作成
+// クラス型の変数を使える
 class Car
 {
-	public static int sum = 0;  // クラス変数
-
 	private int num;
 	private double gas;
+	private String name; // string型の引数
 
 	public Car()
 	{
 		num = 0;
 		gas = 0.0;
-		sum++;
+		name = "名無し";
 		System.out.println("車を作成しました");
 	}
-	public void setCar(int num, double g)
+	public void setCar(int n, double g)
 	{
-		this.num = num;
+		num = n;
 		gas = g;
-		System.out.println("ナンバーを" + num + "にガソリン量を" + gas + "にしました");
+		System.out.println("ナンバーを" + num + "にガソリン量を" + gas + "に設定しました");
 	}
-	public static void showSum()  // クラスメソッド
+	public void setName(String nm)
 	{
-		System.out.println("車は全部で" + sum + "台あります");
+		name = nm;
+		System.out.println("車の名前はは" + name + "です");
 	}
 	public void show()
 	{
-	System.out.println("ナンバーは" + num + ",ガソリン量は" + gas + "です");
+		System.out.println("車のナンバーは" + num + "です");
+		System.out.println("ガソリンの量は" + gas + "です");
+		System.out.println("名前は" + name + "です");
 	}
 }
-
 
 class Sample8
 {
 	public static void main(String[] args)
 	{
-		Car.showSum();
+		Car car1;
+		car1 = new Car();
 
-		Car car1 = new Car();
-		car1.setCar(1234, 20.5);
+		car1.show();
 
-		Car.showSum();
+		int number = 1234;
+		double gasoline = 20.5;
+		String str = "1号車";
 
-		Car car2 = new Car();
-		car2.setCar(4567, 30.5);
-		Car.showSum();
+		car1.setCar(number, gasoline);
+		car1.setName(str);
+
+		car1.show();
 	}
 }
