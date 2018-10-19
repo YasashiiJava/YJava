@@ -18,4 +18,4 @@
 - Go to account dir!
 
 ## Practice 2
-- Coming soon ...
+- Go to day dir!
