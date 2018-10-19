@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /* ここ以下はいじらない */
 
-calss DayTester {
+class DayTester {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		String[] wd = {"日", "月", "火", "水", "木", "金", "土"};
