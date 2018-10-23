@@ -2,7 +2,44 @@
 
 // 銀行口座クラス【第3版】
 /******************* ここにクラス設計を記述 *******************/
+class Account
+{
+	private String name;
+	private String no;
+	private int balance;
 
+	public Account(String n, String	num, int z)  // 静的
+	{
+	 	name = "口座名義";
+		no = "口座番号";
+		balance = 0;
+
+		name = n;
+		no = num;
+		balance = z;
+
+	}
+	public String getName()  // 動的
+	{
+		return name;
+	}
+	public String getNo()  // 動的
+	{
+		return no;
+	}
+	public int getBalance()  // 動的
+	{
+		return balance;
+	}
+	public void withdraw(int k)  // 動的
+	{
+		balance -= k;
+	}
+	public void deposit(int k)  // 動的
+	{
+		balance += k;
+	}
+}
 
 /******************* ここより下はいじらない *******************/
 

@@ -2,8 +2,23 @@
 
 // 銀行口座クラス【第2版】
 /******************* ここにクラス設計を記述 *******************/
+class Account
+{
+	String name;
+	String no;
+	int balance;
 
+	public Account(String n, String	num, int z)
+	{
+	 	name = "口座名義";
+		no = "口座番号";
+		balance = 0;
 
+		name = n;
+		no = num;
+		balance = z;
+	}
+}
 /******************* ここより下はいじらない *******************/
 
 // 銀行口座クラスをテストするクラス
