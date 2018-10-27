@@ -1,9 +1,9 @@
 //座標のクラス
-class Mypoint
+class MyPoint
 {
 	int x;
 	int y;
-	//Mypointは上記の2つのフィールドから成り立つ
+	//MyPointは上記の2つのフィールドから成り立つ
 
 	int getX()
 	{
@@ -15,7 +15,7 @@ class Mypoint
 		System.out.println("Y座標を得ます");
 		return y;
 	}
-	void setXY(int px, int py)
+	void setXY(int px, int py)  // メソッドを2つに分けるように修正
 	{
 		x = px;
 		y = py;
@@ -27,7 +27,7 @@ class SampleP5
 {
 	public	static void main(String[] args)
 	{
-		Mypoint point1 = new Mypoint();
+		MyPoint point1 = new MyPoint();
 		point1.setXY(5, 10);
 
 		int xx = point1.getX();

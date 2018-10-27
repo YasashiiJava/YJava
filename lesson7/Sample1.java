@@ -2,7 +2,7 @@ class Sample1
 {
 	public static void main(String[] args)
 	{
-		int [] test;
+		int[] test;
 		test = new int[5];
 
 		test[0] = 80;
@@ -11,7 +11,7 @@ class Sample1
 		test[3] = 50;
 		test[4] = 75;
 
-		for(int i=0; i<5; i++){
+		for (int i = 0; i < 5; i++) {
 			System.out.println((i + 1) + "番目の人の点数は" + test[i] + "です");
 		}
 	}

@@ -4,10 +4,10 @@ class Sample6
 	{
 		int i = 1;
 
-		do{
+		do {
 			System.out.println(i + "番目の繰り返しです");
 			i++;
-		}while(i <= 5);
+		} while (i <= 5);
 
 		System.out.println("繰り返しは終了しました");
 	}

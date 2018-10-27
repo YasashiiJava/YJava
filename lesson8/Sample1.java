@@ -9,7 +9,7 @@ class Sample1
 {
 	public static void main(String[] args)
 	{
-		Car car1;
+		Car car1; //intもクラス
 		car1 = new Car(); //Carクラスのオブジェクトを作成
 
 		car1.num = 1234;

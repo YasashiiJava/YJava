@@ -1,5 +1,6 @@
 //  文字列の追加
 import java.io.*;
+
 class Sample4
 {
 	public static void main(String[] args) throws IOException

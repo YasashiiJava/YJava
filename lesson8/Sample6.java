@@ -14,7 +14,7 @@ class Car
 		System.out.println("ガソリンの量を調べました");
 		return gas;
 	}
-	void setNumGas(int n, double g)
+	void setNumGas(int n, double g)  // voidは戻り値を持たない
 	{
 		num = n;
 		gas = g;

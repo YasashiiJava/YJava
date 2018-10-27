@@ -17,6 +17,5 @@ class Sample4
 		}
 
 		System.out.println("1から" + num + "までの合計は" + sum + "です");
-
 	}
 }

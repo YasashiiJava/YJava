@@ -1,5 +1,5 @@
 class Practice3 {
-	int total(int n) {
+	static int total(int n) {
 		if (n == 1)
 			return 1;
 		else

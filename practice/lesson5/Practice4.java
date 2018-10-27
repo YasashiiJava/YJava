@@ -20,20 +20,20 @@ class Practice4
 			case 8:
 			case 10:
 			case 12:
-			System.out.println(mon + "月は31日までです");
-			break;
+				System.out.println(mon + "月は31日までです");
+				break;
 			case 4:
 			case 6:
 			case 9:
 			case 11:
-			System.out.println(mon + "月は30日までです");
-			break;
+				System.out.println(mon + "月は30日までです");
+				break;
 			case 2:
-			System.out.println(mon + "月は28日までです");
-			break;
+				System.out.println(mon + "月は28日までです");
+				break;
 			default:
-			System.out.println("月は1~12までです");
-			break;
+				System.out.println("月は1~12までです");
+				break;
 		}
 	}
 }

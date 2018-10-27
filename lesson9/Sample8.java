@@ -1,7 +1,7 @@
 // クラス変数、メソッドの作成
 class Car
 {
-	public static int sum = 0; //  クラス変数
+	public static int sum = 0;  // クラス変数
 
 	private int num;
 	private double gas;
@@ -13,13 +13,13 @@ class Car
 		sum++;
 		System.out.println("車を作成しました");
 	}
-	public void setCar(int n, double g)
+	public void setCar(int num, double g)
 	{
-		num = n;
+		this.num = num;
 		gas = g;
 		System.out.println("ナンバーを" + num + "にガソリン量を" + gas + "にしました");
 	}
-	public static void showSum() //  クラスメソッド
+	public static void showSum()  // クラスメソッド
 	{
 		System.out.println("車は全部で" + sum + "台あります");
 	}

@@ -8,19 +8,14 @@ class Account
 	private String no;
 	private int balance;
 	private static int counter = 0;
-	private static int id = 0;
+	private int id = 0;
 
 	public Account(String n, String	num, int z)  // 動的
 	{
-	 	name = "口座名義";
-		no = "口座番号";
-		balance = 0;
-		counter++;
-
 		name = n;
 		no = num;
 		balance = z;
-		id = counter;
+		id = ++counter;
 
 	}
 	public String getName()  // 動的
@@ -41,7 +36,7 @@ class Account
 	}
 	public static int getMaxId()  // 静的
 	{
-		return id;
+		return counter;
 	}
 	public void withdraw(int k)  // 動的
 	{

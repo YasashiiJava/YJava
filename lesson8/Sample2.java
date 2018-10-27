@@ -10,6 +10,8 @@ class Car
 		System.out.println("ガソリンの量は" + gas + "です");
 	}
 }
+
+
 //実際に実行されるクラス
 class Sample2
 {

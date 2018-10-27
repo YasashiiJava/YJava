@@ -21,7 +21,7 @@ class Sample6
 		for(int i=0; i<3; i++){
 			System.out.println("test1がさす" + (i + 1) + "番目の人の点数は" + test1[i] + "です");
 		}
-			for(int i=0; i<3; i++){
+		for(int i=0; i<3; i++){
 			System.out.println("test2がさす" + (i + 1) + "番目の人の点数は" + test2[i] + "です");
 		}
 
@@ -31,7 +31,7 @@ class Sample6
 		for(int i=0; i<3; i++){
 			System.out.println("test1がさす" + (i + 1) + "番目の人の点数は" + test1[i] + "です");
 		}
-			for(int i=0; i<3; i++){
+		for(int i=0; i<3; i++){
 			System.out.println("test2がさす" + (i + 1) + "番目の人の点数は" + test2[i] + "です");
 		}
 

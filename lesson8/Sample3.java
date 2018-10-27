@@ -12,7 +12,7 @@ class Car
 	void showCar()
 	{
 		System.out.println("これから車の情報を表示します");
-		show();
+		show();  // classの中にあるので、car1.はいらない。
 	}
 }
 

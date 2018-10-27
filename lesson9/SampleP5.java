@@ -5,11 +5,17 @@ class MyPoint
 	private int y;
 	//MyPointは上記の2つのフィールドから成り立つ
 
-	public void Mypoint()
+	public MyPoint()
 	{
 		x = 0;
 		y = 0;
 		System.out.println("初期座標を" + x + "." + y + "にします");
+	}
+
+	public MyPoint(int px, int py)
+	{
+		x = px;
+		y = py;
 	}
 
 	public int getX()
@@ -26,7 +32,7 @@ class MyPoint
 	{
 		if(0 <= px && px <= 100) {
 			x = px;
-			System.out.println("X座標の出力準備をします");
+			System.out.println("X座標を設定しました");
 		}
 		else {
 			System.out.println("０～１００で入力してね");
@@ -36,7 +42,7 @@ class MyPoint
 	{
 		if(0 <= py && py <= 100) {
 			y = py;
-			System.out.println("Y座標の出力準備をします");
+			System.out.println("Y座標を設定しました");
 		}
 		else {
 			System.out.println("０～１００で入力してね");

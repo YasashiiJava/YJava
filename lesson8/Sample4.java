@@ -22,7 +22,7 @@ class Car
 
 class Sample4
 {
-	public static void main(String[] args)
+	public static void main(String[] args)  // 引数をを持つメソッドと同じ
 	{
 		Car car1 = new Car();
 

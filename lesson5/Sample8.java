@@ -10,7 +10,7 @@ class Sample8
 		String str = br.readLine();
 		int res = Integer.parseInt(str);
 
-		char ans = (res == 1 ) ? 'A' : 'B';
+		char ans = (res == 1) ? 'A' : 'B';
 
 		System.out.println(ans + "コースを選択しました");
 	}
