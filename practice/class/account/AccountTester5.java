@@ -7,26 +7,21 @@ class Account
 	private String name;
 	private String no;
 	private int balance;
-	private int counter = 0;
+	private static int counter = 0;
+	private static int id = 0;
 
-	public Account(String n, String	num, int z)  // 静的
+	public Account(String n, String	num, int z)  // 動的
 	{
 	 	name = "口座名義";
 		no = "口座番号";
 		balance = 0;
-		int id = 0;
+		counter++;
 
 		name = n;
 		no = num;
 		balance = z;
-		counter = id;
+		id = counter;
 
-		if(id == 0) {
-			id++;
-		}
-		else {
-			id++;
-		}
 	}
 	public String getName()  // 動的
 	{
@@ -40,13 +35,13 @@ class Account
 	{
 		return balance;
 	}
-	public int getId()  // 静的
+	public int getId()  // 動的
 	{
-		return counter;
+		return id;
 	}
-	public int getMaxId()  // 静的
+	public static int getMaxId()  // 静的
 	{
-		return counter;
+		return id;
 	}
 	public void withdraw(int k)  // 動的
 	{
