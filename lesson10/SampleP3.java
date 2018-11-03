@@ -11,7 +11,7 @@ class SampleP3
 		System.out.println("追加する文字を選んでください");
 		String str2 = br.readLine();
 
-		System.out.println("何番目に" + str2 + "を代入しますか？");
+		System.out.println("何番目に" + str2 + "を挿入しますか？");
 		String str3 = br.readLine();
 		int num = Integer.parseInt(str3);
 

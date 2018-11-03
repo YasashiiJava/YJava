@@ -14,7 +14,8 @@ class Sample9
 			String str = br.readLine();
 			test[i] = Integer.parseInt(str);
 		}
-		for(int s = 0; s <test.length - 1; s++){
+
+		for(int s = 0; s < test.length - 1; s++){
 			for(int t = s + 1; t < test.length; t++){
 				if(test[t] > test[s]){
 					int tmp = test[t];
@@ -23,6 +24,7 @@ class Sample9
 				}
 			}
 		}
+
 		for(int j=0; j<test.length; j++){
 			System.out.println((j + 1) + "番目の人の点数は" + test[j] + "です");
 		}

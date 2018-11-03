@@ -2,7 +2,7 @@ class Sample10
 {
 	public static void main(String[] args)
 	{
-		int [][] test;
+		int[][] test;
 		test = new int[2][5];
 
 		test[0][0] = 80;

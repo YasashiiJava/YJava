@@ -12,7 +12,7 @@ class Sample6
 		test1[1] = 60;
 		test1[2] = 22;
 
-		int[] test2;
+		int [] test2;
 		System.out.println("test2を宣言しました");
 
 		test2 = test1;

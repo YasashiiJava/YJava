@@ -35,8 +35,8 @@ class Sample6
 
 		car1.setNumGas(1234, 20.5);
 
-		int number = car1.getNum();//numが返り値
-		double gasoline = car1.getGas();//gasが返り値
+		int number = car1.getNum();  // numが返り値,numberに代入
+		double gasoline = car1.getGas();  // gasが返り値,gasolineに代入
 
 		System.out.println("サンプルから車を調べたところ");
 		System.out.println("ナンバーは" + number + "ガソリンの量は" + gasoline + "です");

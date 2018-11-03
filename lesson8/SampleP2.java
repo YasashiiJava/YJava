@@ -1,4 +1,4 @@
-//SampleP1 ①○②○③×
+//SampleP1 ①○ ②○ ③×
 
 //車クラス
 class Car
@@ -30,3 +30,4 @@ class SampleP2
 }
 
 //SampleP3 イ
+//SampleP4 ①○ ②× ③○

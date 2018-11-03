@@ -2,7 +2,7 @@ class Sample5
 {
 	public static void main(String[] args)
 	{
-		int [] test1;
+		int[] test1;
 		test1 = new int[3];
 
 		System.out.println("test1を宣言しました");

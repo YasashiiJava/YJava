@@ -1,4 +1,4 @@
- //  文字を逆にする
+ //  文字をついかする
 import java.io.*;
 class SampleP6
 {

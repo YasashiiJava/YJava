@@ -15,6 +15,6 @@ class SampleP4
 		int num2 = Integer.parseInt(str2);
 
 		int ans = Math.min(num1, num2);
-			System.out.println( num1 + "と" + num2 + "で小さいのは" + ans + "です");
+		System.out.println( num1 + "と" + num2 + "で小さいのは" + ans + "です");
 	}
 }
