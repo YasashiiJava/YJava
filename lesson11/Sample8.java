@@ -24,7 +24,7 @@ class Sample8
 		car3 = car1;
 
 		boolean bl1 = car1.equals(car2);
-		boolean bl2 = car1.equals(car3);
+		boolean bl2 = car1.equals(car3);  // objectクラスにある
 
 		System.out.println("car1とcar2か同じか調べたところ" + bl1 + "でした");
 		System.out.println("car1とcar3か同じか調べたところ" + bl2 + "でした");

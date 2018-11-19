@@ -1,20 +1,43 @@
-import java.io.*;
-
-class SampleP4
+class Car
 {
-	public static void main(String[] args) throws IOException
+	protected int num;
+	protected double gas;
+
+	public Car()  // 引数のない場合のコンストラクタ
 	{
-		System.out.println("整数を2つ入力してください");
-
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		String str1 = br.readLine();
-		String str2 = br.readLine();
-
-		int num1 = Integer.parseInt(str1);
-		int num2 = Integer.parseInt(str2);
-
-		int ans = Math.min(num1, num2);
-		System.out.println( num1 + "と" + num2 + "で小さいのは" + ans + "です");
+		num = 0;
+		gas = 0.0;
+		System.out.println("車を作成しました");
+	}
+	public Car(int n, double g)  // 引数のあるコンストラクタ
+	{
+		num = n;
+		gas = g;
+		System.out.println("ナンバー" + num + "に、" + gas + "の車を作成しました");
+	}
+	public void setCar(int n, double g)
+	{
+		num = n;
+		gas = g;
+		System.out.println("ナンバーを" + num + "に、ガソリン量を" + gas + "に設定しました");
+	}
+	public void show()
+	{
+		System.out.println("車のナンバーは" + num + "です");
+		System.out.println("ガソリン量は" + gas + "です");
+	}
+	public String toString()
+	{
+		return "ナンバー:" + num + "ガソリン:" + gas + "の車";
 	}
 }
+
+
+class  SampleP4
+ {
+ 	public static void main(String[] args)
+ 	{
+ 		Car car1 = new Car(1234, 20.5);
+ 		System.out.println(car1);
+ 	}
+ }

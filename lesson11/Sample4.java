@@ -28,6 +28,8 @@ class Car
 		System.out.println("ガソリン量は" + gas + "です");
 	}
 }
+
+
  // レーシングカークラス
  class RacingCar extends Car
  {
@@ -43,7 +45,7 @@ class Car
  		course = c;
  		System.out.println("コース番号を" + course + "にしました");
  	}
- 	public void Show()
+ 	public void show()
  	{
  		System.out.println("レーシングカーのナンバーは" + num + "です");
  		System.out.println("レーシングカーのガソリン量は" + gas + "です");
@@ -52,7 +54,7 @@ class Car
  }
 
 
- class  Sample4
+class  Sample4
  {
  	public static void main(String[] args)
  	{
