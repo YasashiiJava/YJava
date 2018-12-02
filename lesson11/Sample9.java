@@ -29,7 +29,7 @@ class Car
  {
  	public static void main(String[] args)
  	{
- 		Car[]cars;
+ 		Car[] cars;
  		cars = new Car[2];
 
  		cars[0] = new Car();
@@ -37,7 +37,7 @@ class Car
 
  		for(int i = 0; i < cars.length; i++) {
  			class c1 = cars[i].getClass();
- 			System.out.println(( i + 1 ) + "番目のオブジェクトのクラスは" + c1 + "です");
+ 			System.out.println(( i + 1 ) + "番目のオブジェクトのクラスは" + cl + "です");
  		}
  	}
  }

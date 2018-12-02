@@ -24,7 +24,7 @@ class Main
 		StopWatch stopWatch = new StopWatch();
 		stopWatch.start();
 		try{
-		Thread.sleep(1000);
+			Thread.sleep(1000);
 		}catch(Exception e){}
 		stopWatch.stop();
 		long diff = stopWatch.getDiff();
