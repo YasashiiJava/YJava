@@ -6,4 +6,4 @@
 
 ## 未消化問題リスト
 - [ ] lesson6 - 棒グラフ
-- [ ] method - Dayクラス
+- [x] method - Dayクラス
