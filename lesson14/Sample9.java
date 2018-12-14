@@ -13,7 +13,7 @@ class Sample9
 			 for(int i = 0; i < test.length; i++) {
 			 	str = br.readLine();
 			 	test[i] = Integer.parseInt(str);
-			 }
+		 }
 
 			 int max = test[0];
 			 int min = test[0];
@@ -30,8 +30,8 @@ class Sample9
 
 			 br.close();
 			}
-			catch(IOException e) {
-				System.out.println("入出力エラーです");
+		catch(IOException e) {
+			System.out.println("入出力エラーです");
 		}
 	}
 }

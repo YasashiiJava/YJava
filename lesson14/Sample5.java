@@ -22,9 +22,9 @@ class Car
 			throw e;
 		}
 		else {
-		num = n;
-		gas = g;
-		System.out.println("ナンバーを" + num + "にガソリン量を" + gas + "に設定しました");
+			num = n;
+			gas = g;
+			System.out.println("ナンバーを" + num + "にガソリン量を" + gas + "に設定しました");
 		}
 	}
 	public void show()

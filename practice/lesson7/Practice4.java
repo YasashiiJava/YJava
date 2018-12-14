@@ -6,7 +6,7 @@ class Practice4
 {
 	public static void main(String[] args)
 	{
-		int numOfPoints = 10000000;
+		int numOfPoints = Integer.parseInt(args[0]);
 		double[][] points;
 		points = new double[numOfPoints][2];
 

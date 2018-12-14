@@ -1,5 +1,5 @@
 // 例外を作る
-class Car CarException extends Exception
+class CarException extends Exception
 {
 }
 

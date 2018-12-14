@@ -6,7 +6,7 @@ class Sample1
 		test = new int [5];
 		System.out.println("test[10]に値を代入します");
 
-		test[10] = 80;
+		test[10] = 80;  //例外が出るthrow
 		System.out.println("test[10]の80を代入しました");
 		System.out.println("無事終了しました");
 	}

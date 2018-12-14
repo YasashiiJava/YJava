@@ -1,43 +1,18 @@
-class Car
-{
-	protected int num;
-	protected double gas;
+import java.io.*;
 
-	public Car()  // 引数のない場合のコンストラクタ
+class SampleP2
+{
+	public static void main(String[] args)
 	{
-		num = 0;
-		gas = 0.0;
-		System.out.println("車を作成しました");
-	}
-	public Car(int n, double g)  // 引数のあるコンストラクタ
-	{
-		num = n;
-		gas = g;
-		System.out.println("ナンバー" + num + "に、" + gas + "の車を作成しました");
-	}
-	public void setCar(int n, double g)
-	{
-		num = n;
-		gas = g;
-		System.out.println("ナンバーを" + num + "に、ガソリン量を" + gas + "に設定しました");
-	}
-	public void show()
-	{
-		System.out.println("車のナンバーは" + num + "です");
-		System.out.println("ガソリン量は" + gas + "です");
-	}
-	public String toString()
-	{
-		return "ナンバー:" + num + "ガソリン:" + gas + "の車";
+		try {
+			PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("test1.txt")));
+
+			pw.println("A long time ago,\nthere was a little girl");
+			System.out.println("ファイルに書き込みました");
+
+			pw.close();
+		} catch(IOException e) {
+			System.out.println("入出力エラーです");
+		}
 	}
 }
-
-
-class  SampleP4
- {
- 	public static void main(String[] args)
- 	{
- 		Car car1 = new Car(1234, 20.5);
- 		System.out.println(car1);
- 	}
- }

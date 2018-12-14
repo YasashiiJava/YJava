@@ -15,9 +15,9 @@ class Sample8
 			 System.out.println(str2 + "です");
 
 			 br.close();
-			}
-			catch(IOException e) {
-				System.out.println("入出力エラーです");
+		}
+		catch(IOException e) {
+			System.out.println("入出力エラーです");
 		}
 	}
 }
