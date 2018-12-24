@@ -1,18 +1,33 @@
-import java.io.*;
+class Car implements Runnable
+{
+	private String name;
+
+	public Car(String nm)
+	{
+		name = nm;
+	}
+	public void run()
+	{
+		for(int i = 0; i < 5; i++) {
+			System.out.println(name + "の処理をしています");
+		}
+	}
+}
 
 class SampleP2
 {
 	public static void main(String[] args)
 	{
-		try {
-			PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("test1.txt")));
+		Car car1 = new Car("１号車");
+		Thread th1 = new Thread(car1);
+		th1.start();
 
-			pw.println("A long time ago,\nthere was a little girl");
-			System.out.println("ファイルに書き込みました");
+		Car car2 = new Car("２号車");
+		Thread th2 = new Thread(car2);
+		th2.start();
 
-			pw.close();
-		} catch(IOException e) {
-			System.out.println("入出力エラーです");
+		for(int i = 0; i < 5; i++) {
+			System.out.println("main()の処理をしています");
 		}
 	}
 }

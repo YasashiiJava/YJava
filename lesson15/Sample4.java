@@ -25,9 +25,9 @@ class Sample4
 		for(int i = 0; i < 5; i++) {
 			try{
 				Thread.sleep(1000);
-			System.out.println("main()の処理をしています");
-		}
-		catch(InterruptedException e) {}
+				System.out.println("main()の処理をしています");
+			}
+			catch(InterruptedException e) {}
 		}
 	}
 }

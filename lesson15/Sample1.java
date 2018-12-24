@@ -22,7 +22,7 @@ class Sample1
 		car1.start();
 
 		for(int i = 0; i < 5; i++) {
-			System.out.println("main()の処理をしています");
+			System.out.println(i * i);
 		}
 	}
 }
